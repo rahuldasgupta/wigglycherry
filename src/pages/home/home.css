@@ -1,0 +1,467 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.slider-div{
+    width: 100vw;
+    margin-top: 10rem;
+}
+@media only screen and (max-width: 599px) {
+    .bottom_tab{
+        display: block;
+    }
+    .footer_forpc{
+        display: none;
+    }
+    .home-whychoose-carousel-div{
+        display: none;
+    }
+    p.home_title_topSellings{
+        font-family: 'Pacifico', cursive;
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-top: 5%
+    }
+    .home-whychoose-carousel-div_mobile{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5.5%;
+        width: 90%;
+        display: block;
+    }
+    p.home_slider_card_title{
+        padding-left: 12%;
+        padding-top: 5px;
+        line-height: 24px;
+        margin-bottom: 0px !important;
+        font-size: 18px;
+        color: #000;
+    }
+    p.home_slider_card_price{
+        padding-left: 12%;
+        font-size: 16px;
+        color: #000;
+    }
+    .home_slider_cards{
+        display: none;
+    }
+    .home_slider_cards_mobile{
+        display: block;
+    }
+    .slider-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .carousel_pc{
+        display: none;
+    }
+    .carousel_mobile{
+        display: block;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 5%;
+        border-radius: 15px;
+        width: 94%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .home_categories_cards_pc{
+        display: none;
+    }
+    .home_categories_cards_mobile{
+        margin-top: 5%;
+        display: block;
+        margin-left: 3%;
+        margin-right: 3%
+    }
+    .home_categories_cards_mobile:hover{
+        height: 65px !important;
+    }
+    .home_categories_card{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        border-radius: 15px;
+        margin-left: 5%;
+        margin-top: 3%;
+        margin-right: 5%;
+        cursor: pointer;
+        padding: 5%;
+        padding-top: 20px;
+        margin-bottom: 20%;
+        transition: all 500s ease-in-out;
+    }
+    .home_categories_card_img{
+        width: 60px;
+        object-fit: contain;
+    }
+    p.home_categories_card_txt{
+        margin-top: 7px;
+        font-size: 16.5px;
+        color: #000;
+    }
+    .berries_slider_div{
+        margin-top: 4%;
+        background-repeat: no-repeat, repeat;
+        background-position: right top;
+        background: url("../../assets/mixed-berries.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .veggies_slider_div{
+        margin-top: 4%;
+        background-repeat: no-repeat, repeat;
+        background-position: right top;
+        background: url("../../assets/vegetables.webp");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .berries_box_1 {
+        transition: box-shadow .3s;
+        width: 280px;
+        height: 400px;
+        margin: 50px;
+        border-radius:5px;
+        margin-top: 25%;
+        margin-bottom: 25%;
+        background-color: rgb(19, 19, 17, 1);
+    }
+    .berries_box_2 {
+        transition: box-shadow .3s;
+        width: 280px;
+        height: 400px;
+        margin: 50px;
+        border-radius:5px;
+        margin-top: 25%;
+        margin-bottom: 25%;
+        background: #fff;
+    }
+    .berries_div_2{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(19, 19, 17, 0.6);
+    }
+    .berries_div_1{
+        height: 100%;
+    }
+    .home_slider_cards_mobile_card{
+        margin-top: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        width: 95%;
+        margin: 2.5%;
+        margin-bottom: 10%;
+        padding-top: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+
+.berries_box_1-inner{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+}
+.berries-box-text-title{
+    color:#fff;
+    font-weight: 600;
+    font-size: 35px;
+}
+.berries-box-text-subtitle{
+    color:#fff;
+    font-size: 15px;
+}
+button.requestSolution {
+    width: 90%;
+    height: 40px;
+    border-radius: 0px;
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins";
+    background: #d57121;
+    margin-top: 40%;
+}
+.berries_box_2-inner{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 0%;
+    transition: all 500s ease-in-out;
+}
+@media only screen and (min-width: 600px) {
+    .bottom_tab{
+        display: none;
+    }
+    .footer_forpc{
+        display: block;
+    }
+    p.home_title_topSellings{
+        font-family: 'Pacifico', cursive;
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 1.5%;
+        margin-top: 6%
+    }
+    .home-whychoose-carousel-div{
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5.5%;
+        width: 70%;
+        display: block;
+    }
+    .home-whychoose-carousel-div_mobile{
+        display: none;
+    }
+    p.home_slider_card_title{
+        padding-left: 12%;
+        padding-top: 5px;
+        line-height: 24px;
+        margin-bottom: 4px !important;
+        font-size: 22px;
+        color: #000;
+    }
+    p.home_slider_card_price{
+        padding-left: 12%;
+        font-size: 18px;
+        color: #000;
+    }
+    .berries_div_1{
+        height: 103vh;
+    }
+    .berries_div_2{
+        width: 100%;
+        background-color: rgb(19, 19, 17, 0.6);
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 103vh;
+    }
+    .berries_slider_div {
+        margin-top: 4%;
+        height: 103vh;
+        background-repeat: no-repeat, repeat;
+        background-position: right top;
+        background: url("../../assets/mixed-berries.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .veggies_slider_div {
+        margin-top: 4%;
+        height: 103vh;
+        background-repeat: no-repeat, repeat;
+        background-position: right top;
+        background: url("../../assets/vegetables.webp");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .berries_box_1 {
+        transition: box-shadow .3s;
+        width: 280px;
+        height: 400px;
+        margin: 50px;
+        border-radius:5px;
+        margin-top: 38%;
+        background-color: rgb(19, 19, 17, 1);
+    }
+    .berries_box_2 {
+        transition: box-shadow .3s;
+        width: 280px;
+        height: 390px;
+        border-radius:5px;
+        margin-top: 65%;
+        background: #fff;
+    }
+    .slider-img{
+        width: 100vw;
+        height: 89vh;
+        object-fit: cover;
+    }
+    .home_slider_cards{
+        display: block;
+    }
+    .home_slider_cards_mobile{
+        display: none;
+    }
+    .carousel_pc{
+        display: block;
+    }
+    .carousel_mobile{
+        display: none;
+    }
+    .home_categories_cards_pc{
+        margin-top: 7%;
+        margin-bottom: 5%;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        display: flex;
+    }
+    .home_categories_cards_mobile{
+        display: none;
+    }
+    .home_categories_card{
+        height: 145px;
+        width: 120px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 15px;
+        float: left;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        cursor: pointer;
+    }
+    .home_categories_card_img{
+        height: 65px;
+        width: 65px;
+        margin-top: 30px;
+    }
+    p.home_categories_card_txt{
+        margin-top: 8px;
+        font-size: 17.4px;
+        color: #000;
+    }
+}
+
+.home_slider_cards{
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+}
+.home_slider_cards_mobile{
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+}
+.categories_icon{
+    color: #d57121;
+    margin-top: 10px;
+    float: right;
+    display: flex;
+}
+.add_icon{
+    color: #d57121;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.substract_icon{
+    color: #D0D0D0;
+    margin-left: 13%;
+    margin-top: -10px;
+    cursor: pointer;
+}
+text.cartValue{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Poppins";
+    color: #000;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.home_slider_card{
+    margin: 7%;
+    padding-top: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform .3s;
+    cursor: pointer;
+}
+.home_slider_card:hover{
+    -ms-transform: scale(1.04); /* IE 9 */
+    -webkit-transform: scale(1.04); /* Safari 3-8 */
+    transform: scale(1.04); 
+}
+.home_slider_card_img{
+    height: 210px;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.cut_txt{
+    margin-left: 10px;
+    font-size: 15px;
+}
+button.addToCart_home{
+    width: 90%;
+    height: 37px;
+    border: 0px solid #fff;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins";
+    background: #d57121;
+}
+p.use_coupon_home{
+    text-align: center;
+    font-size: 13px;
+    line-height: 12px;
+    margin-top: 8px;
+    color: #BBBBBB;
+}
+.coupon_div{
+    background-color: #EFEFEF;
+    height: 35px;
+    border: 2px dashed #d57121;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: center;
+    align-self: center;
+    align-self: center;
+    display: flex;
+}
+span.coupon_home{
+    color: #222;
+    font-size: 15px;
+    justify-content: center;
+    align-self: center;
+    align-self: center;
+    display: flex;
+}
+.react-multiple-carousel__arrow {
+    margin-top: 15% !important;
+}
+.home_slider_cards_mobile_card_img{
+    height: 130px;
+    width: 90%;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    object-fit: cover;
+}
+.prod-cards-hover-back-div{
+    justify-content: center !important;
+    align-items: center !important;
+    padding-top: 50px !important;
+    align-self: center !important;
+}
+p.prod-cards-hover-back{
+    text-align: center !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+  .prod-cards-hover-back-div{
+    justify-content: center !important;
+    align-items: center !important;
+    padding-top: 50px !important;
+    align-self: center !important;
+}
+button.cards-products-visit-site{
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    border: 0px solid #fff;
+    font-family: "Poppins";
+    background: #d57121 !important;
+    border-radius: 7px;
+    margin-bottom: 17px;
+    margin-top: 10px;
+}
