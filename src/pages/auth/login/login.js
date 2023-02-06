@@ -4,10 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import {getAuth, signInWithEmailAndPassword, GoogleAuthProvider, TwitterAuthProvider, signInWithPopup} from 'firebase/auth';
 import {initializeApp} from 'firebase/app';
-import { collection, query, where, getDocs, getFirestore, doc, setDoc } from "firebase/firestore";
 
-
-import Footer from "../../../components/Footer/footer";
 import google from "../../../assets/google.png";
 import facebook from "../../../assets/facebook.png";
 import './login.css'

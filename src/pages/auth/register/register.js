@@ -6,7 +6,6 @@ import {getAuth, GoogleAuthProvider, signInWithPopup, createUserWithEmailAndPass
 import {initializeApp} from 'firebase/app';
 import { getFirestore, collection, addDoc  } from "firebase/firestore";
 
-import Footer from "../../../components/Footer/footer";
 import google from "../../../assets/google.png";
 import facebook from "../../../assets/facebook.png";
 

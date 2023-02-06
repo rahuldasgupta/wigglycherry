@@ -3,9 +3,6 @@ import { withRouter, Link } from "react-router-dom";
 import Carousel from 'react-multi-carousel';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Footer from "../../components/Footer/footer";
-import { FiHeart, FiMinusCircle } from "react-icons/fi";
-import { AiOutlineInstagram } from "react-icons/ai";
 import MetaTags from 'react-meta-tags';
 
 //Images

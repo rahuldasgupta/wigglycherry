@@ -3,23 +3,14 @@ import { Nav, NavLink, NavMenu } from "./NavbarElements";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SideBar from "../Sidebar/sidebar";
-import { IoClose } from "react-icons/io5";
-import { FiSearch } from "react-icons/fi";
 import { AiOutlineShoppingCart, AiOutlineSetting } from "react-icons/ai";
-import { FaRegUserCircle, FaCheck } from "react-icons/fa";
-import Modal from "react-bootstrap/Modal";
-import ModalBody from "react-bootstrap/ModalBody";
 import {initializeApp} from 'firebase/app';
 import { collection, query, where, getDocs, getFirestore, doc, setDoc } from "firebase/firestore";
 
 //images
 import sidebar_icon from "../../assets/sidebar.png";
 import appIcon from "../../assets/appIcon.png";
-import persona from "../../assets/persona.svg";
 import logo from "../../assets/logo.png";
-import user_img from "../../assets/user_img.png";
-import setting from "../../assets/setting.png";
-import logout from "../../assets/logout.png";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBUbLDQeX3wFCC1QMsBxny03mXjs2k2MGs",

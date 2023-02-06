@@ -22,7 +22,6 @@ import profile_humanity from "../../assets/profile_humanity.png";
 import profile_location from "../../assets/profile_location.png";
 import profile_mail from "../../assets/profile_mail.png";
 
-import Footer from "../../components/Footer/footer";
 import "./account.css";
 import "react-toastify/dist/ReactToastify.css";
 
