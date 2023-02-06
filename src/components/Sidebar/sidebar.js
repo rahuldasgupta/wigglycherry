@@ -11,7 +11,7 @@ import { RiToolsFill } from "react-icons/ri";
 import { MdOutlineLogout } from "react-icons/md";
 
 import appIcon from "../../assets/appIcon.png";
-import { NavLink } from "../Navbar/NavbarElements";
+import { NavLink } from "../navbar/NavbarElements";
 import "./custom.scss";
 import "./sidebar_styles.css";
 
