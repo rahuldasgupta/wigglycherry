@@ -10,7 +10,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.1",
-    "node-sass": "^7.0.3",
+    "firebase": "^9.17.1",
     "react": "^18.2.0",
     "react-background-slider": "^3.0.0-0",
     "react-bootstrap": "^2.5.0",
@@ -18,10 +18,14 @@
     "react-icons": "^4.4.0",
     "react-meta-tags": "^1.0.1",
     "react-multi-carousel": "^2.8.2",
+    "react-pro-sidebar": "0.7.1",
     "react-reveal": "^1.2.2",
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1",
+    "sass": "^1.58.0",
+    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

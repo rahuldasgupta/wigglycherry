@@ -1,14 +1,28 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 .slider-div{
     width: 100vw;
     margin-top: 10rem;
 }
+p.viewCollection{
+    font-size: 17px;
+    text-align: center;
+    color: #949494;
+    font-weight: 500;
+    cursor: pointer;
+}
+p.viewCollection:hover{
+    color: #222;
+}
 @media only screen and (max-width: 599px) {
     .bottom_tab{
         display: block;
+    }
+    .card{
+        width: 85vw !important;
+        height: 500px !important;
     }
     .footer_forpc{
         display: none;
@@ -17,7 +31,7 @@
         display: none;
     }
     p.home_title_topSellings{
-        font-family: 'Pacifico', cursive;
+        font-family: 'Great Vibes', cursive;
         font-size: 3em;
         text-align: center;
         margin-bottom: 1%;
@@ -201,8 +215,12 @@ button.requestSolution {
     .footer_forpc{
         display: block;
     }
+    .card{
+        width: 27.6vw !important;
+        height: 500px !important;
+    }
     p.home_title_topSellings{
-        font-family: 'Pacifico', cursive;
+        font-family: 'Great Vibes', cursive;
         font-size: 3em;
         text-align: center;
         margin-bottom: 1.5%;
@@ -331,9 +349,8 @@ button.requestSolution {
 }
 
 .home_slider_cards{
-    margin-left: 4%;
-    margin-right: 4%;
-    width: 92%;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 .home_slider_cards_mobile{
     margin-left: 4%;
@@ -366,10 +383,8 @@ text.cartValue{
     margin-right: 12px;
 }
 .home_slider_card{
-    margin: 7%;
-    padding-top: 10px;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 5%;
+    margin-bottom: 10%;
     transition: transform .3s;
     cursor: pointer;
 }
@@ -379,11 +394,10 @@ text.cartValue{
     transform: scale(1.04); 
 }
 .home_slider_card_img{
-    height: 210px;
-    width: 90%;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    height: 310px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
 }
 .cut_txt{
     margin-left: 10px;
@@ -465,3 +479,252 @@ button.cards-products-visit-site{
     margin-bottom: 17px;
     margin-top: 10px;
 }
+
+
+
+
+
+/*NEW*/
+:root{
+    --text-light: rgba(255,255,255,0.6);
+    --text-lighter: rgba(255,255,255,0.9);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 100vw;
+  }
+  
+  *{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .hero-section{
+    padding: 7%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 0% !important;
+  }
+  
+  .card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: var(--spacing-l);
+    grid-row-gap: var(--spacing-l);
+    max-width: var(--width-container);
+    width: 100%;
+  }
+  
+  @media(min-width: 540px){
+    .card-grid{
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media(min-width: 960px){
+    .card-grid{
+      grid-template-columns: repeat(4, 1fr); 
+    }
+  }
+  
+  .card:before{
+    content: '';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
+  }
+  
+  .card__background{
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+    filter: brightness(0.75) saturate(1.2) contrast(0.85);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: center;
+    trsnsform: scale(1) translateZ(0);
+    transition: 
+      filter 100ms linear,
+      transform 100ms linear;
+  }
+  
+  .card:hover .card__background{
+    transform: scale(1) translateZ(0);
+  }
+  
+  .card-grid:hover > .card:not(:hover) .card__background{
+    filter: brightness(0.7) saturate(0);
+  }
+  
+  .card__content{
+    left: 0;
+    padding: var(--spacing-l);
+    position: absolute;
+    bottom: 0;
+  }
+  .card__heading{
+    color: var(--text-lighter);
+    font-size: 1.6rem;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+  .bg1{
+    background-image: url(https://i.ibb.co/nsnm26N/20221111-100018.jpg) !important;
+  }
+  .bg2{
+    background-image: url(https://i.ibb.co/sbwrWyR/20221113-124908.jpg) !important;
+  }
+  .bg3{
+    background-image: url(https://i.ibb.co/RY3Yx3P/20221102-102247-1.jpg) !important;
+  }
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    margin-left: 10% !important;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .btn_Margins{
+    margin-left: 40px;
+    margin-top: 20px !important;
+    position: absolute;
+    color: #fff;
+  }
+  .btn_Headers{
+    color: #fff;
+    margin-top: -30px;
+    font-size: 30px;
+    width: 100%;
+    margin-left: 10px;
+    position: absolute;
+  }
+  .instaImage_Inner{
+    background-color: rgb(19, 19, 17, 0.1);
+    height: 400px;
+    width: 100%;
+  }
+  .instaImage_Inner:hover{
+    background-color: rgb(19, 19, 17, 0.6);
+  }
+  .instaOuter_1{
+    background-repeat: no-repeat, repeat;
+    background-position: right top;
+    background: url("https://i.ibb.co/nsnm26N/20221111-100018.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .instaOuter_2{
+    background-repeat: no-repeat, repeat;
+    background-position: right top;
+    background: url("https://i.ibb.co/sbwrWyR/20221113-124908.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .instaOuter_3{
+    background-repeat: no-repeat, repeat;
+    background-position: right top;
+    background: url("https://i.ibb.co/MMy3Z3J/20221102-100721-1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .instaOuter_4{
+    background-repeat: no-repeat, repeat;
+    background-position: right top;
+    background: url("https://i.ibb.co/v12P1kJ/20221111-103930.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .instaOuter_5{
+    background-repeat: no-repeat, repeat;
+    background-position: right top;
+    background: url("https://i.ibb.co/K0nwjDr/20221111-095908.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .instaOuter_6{
+    background-repeat: no-repeat, repeat;
+    background-position: right top;
+    background: url("https://i.ibb.co/RY3Yx3P/20221102-102247-1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .BsInstagram-icon{
+    color: red;
+  }
+  .instaMargins{
+    padding: 7%;
+    padding-top: 0%;
+    padding-bottom: 1.5%;
+  }
+  .homeIG{
+    height: 25px;
+    object-fit: contain;
+    margin-top: 46%;
+  }

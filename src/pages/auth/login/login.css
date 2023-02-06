@@ -1,0 +1,325 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@media only screen and (max-width: 599px) {
+    .container-box_register{
+        width: 100vw;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 7%;
+        
+        background-color: #fff;
+    }
+    .social_button{
+        box-sizing: border-box;
+        width: 100%;
+        height: 55px;
+        border: 1.6px solid #C6C6C6;
+        border-radius: 8px;
+        margin-bottom: 5%;
+        cursor: pointer;
+        align-self: center !important;
+        align-items: center !important;
+        padding-top: 11.5px;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    .social_button_blue{
+        box-sizing: border-box;
+        width: 100%;
+        height: 58px;
+        background-color: #136EB7;
+        border-radius: 8px;
+        margin-bottom: 5%;
+        cursor: pointer;
+        align-self: center !important;
+        align-items: center !important;
+        padding-top: 13px;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    .login_button{
+        box-sizing: border-box;
+        width: 100%;
+        height: 58px;
+        background-color: #d87424;
+        border-radius: 8px;
+        margin-bottom: 5%;
+        cursor: pointer;
+        align-self: center !important;
+        align-items: center !important;
+        padding-top: 14.7px;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-top: 35px;
+    }
+    .social_button_disabled{
+        box-sizing: border-box;
+        width: 100%;
+        height: 58px;
+        border: 1.6px solid #C6C6C6;
+        background-color: #F5F5F5;
+        border-radius: 8px;
+        margin-bottom: 5%;
+        cursor: not-allowed;
+        align-self: center !important;
+        align-items: center !important;
+        padding-top: 13px;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    .hr{
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 7%;
+        border: 1px solid #C6C6C6;
+    }
+    input.emailInput{
+        border-radius: 8px;
+        padding-left: 10px;
+        width: 100%;
+        border: 1.6px solid #C6C6C6;
+        height: 58px;
+        padding-left: 6%;
+        margin-top: 20px;
+    }
+    .login_containerBox_inner{
+        margin-top: 3%;
+        background-color: transparent;
+        padding: 6.5%;
+        padding-top: 0%;
+        padding-bottom: 6%;
+        border-radius: 10px;
+        margin-bottom: 0%;
+    }
+}
+.registerInputMargin{
+    margin-bottom: 3%;
+}
+@media only screen and (min-width: 600px) {
+    .container-box_register{
+        width: 100vw;
+        padding-left: 15%;
+        padding-top: 5%;
+        padding-right: 15%;
+        justify-content: center !important;
+        align-self: center !important;
+        align-items: center !important;
+        display: flex;
+        min-height: 100vh;
+        background-color: #f5f5f5;
+    }
+    .social_button{
+        box-sizing: border-box;
+        width: 100%;
+        height: 50px;
+        border: 1.6px solid #C6C6C6;
+        border-radius: 8px;
+        margin-bottom: 5%;
+        cursor: pointer;
+        align-self: center !important;
+        align-items: center !important;
+        padding-top: 10.2px;
+    }
+    .social_button_connected{
+        box-sizing: border-box;
+        width: 373px;
+        height: 58px;
+        border: 1px solid #73c255;
+        background-color: #73c255;
+        border-radius: 8px;
+        margin-bottom: 5%;
+        cursor: pointer;
+        align-self: center !important;
+        align-items: center !important;
+        padding-top: 13px;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .login_button{
+        box-sizing: border-box;
+        width: 373px;
+        height: 58px;
+        background-color: #d87424;
+        border-radius: 8px;
+        margin-top: 35px;
+        cursor: pointer;
+        align-self: center !important;
+        align-items: center !important;
+        padding-top: 14.7px;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .social_button_disabled{
+        box-sizing: border-box;
+        width: 373px;
+        height: 58px;
+        border: 1.6px solid #C6C6C6;
+        background-color: #F5F5F5;
+        border-radius: 8px;
+        margin-bottom: 5%;
+        cursor:not-allowed;
+        align-self: center !important;
+        align-items: center !important;
+        padding-top: 13px;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    input.emailInput{
+        border-radius: 8px;
+        padding-left: 10px;
+        width: 373px;
+        border: 1.6px solid #C6C6C6;
+        height: 58px;
+        padding-left: 6%;
+        margin-top: 20px;
+        color: #136EB7;
+        font-weight: 600;
+    }
+    .social_button_blue{
+        box-sizing: border-box;
+        width: 100%;
+        height: 58px;
+        background-color: #136EB7;
+        border-radius: 8px;
+        margin-bottom: 5%;
+        cursor: pointer;
+        align-self: center !important;
+        align-items: center !important;
+        padding-top: 13px;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .hr{
+        width: 373px;
+        margin-top: 10%;
+        margin-bottom: 7%;
+        border: 1px solid #C6C6C6;
+    }
+    .login_containerBox_inner{
+        background-color: #fff;
+        padding: 5%;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        margin-bottom: 8.5%;
+    }
+}
+p.login_header_text{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    color: #252525;
+    margin-bottom: 7%;
+}
+.social_button_icon{
+    height: 20px;
+    object-fit: contain;
+    float: center;
+}
+.social_button_icon_phone{
+    height: 22px;
+    object-fit: contain;
+    float: center;
+}
+.proceed_button_icon{
+    height: 17px;
+    object-fit: contain;
+}
+span.social_button_text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #525252;
+    margin-left: 10px;
+    float: center;
+}
+p.signup_with{
+    color: #777777;
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+span.social_button_text_white{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    margin-left: 20px;
+}
+p.login_signup_ques_text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #525252;
+}
+p.login_signup_ques_text_white{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+.IoMail-icon{
+    color: #fff;
+}
+
+input.emailInput:focus {
+    border: 2px solid #136EB7;
+    outline:none;
+}
+#marginInputs {
+    margin-top: 15px;
+}
+#marginInputs_Dashboard {
+    margin-top: 10px;
+    margin-left: 2px;
+}
+#marginInputsForgotPassword {
+    margin-top: 10px;
+    text-align: left !important;
+}
+span.validateErrorTxt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    letter-spacing: 0.01em;
+    color: red;
+  }
+p.login_ForgotPasswordText{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.login_emailBox{
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-bottom: 10%;
+    margin-top: -12%;
+}
+.signup_emailBox{
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}

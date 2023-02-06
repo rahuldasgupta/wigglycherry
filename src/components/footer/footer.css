@@ -1,65 +1,98 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-.footer_contant{
-  background: linear-gradient(to right, #131311 , #2C2C2C);
-  padding: 2.2%;
-  padding-left: 0%;
-  width: 100vw;
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+.BsChevronDown-footer{
+  margin-left: 5px;
+  color: #000;
+  margin-top: -1px;
 }
-.block_1{
-  width:30%; 
-}
-.sec{
-  margin-top: 5%;
-}
-.block_2{
-  width:30%;
-  margin-top: 3%;
-}
-.social-icons{
-  height: 27px;
-  width: 27px;
+span.footer_english{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
   cursor: pointer;
 }
-.block_3{
-  width:40%; 
-  line-height: 25px;
+span.footer_englishMargins{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 6%;
+  cursor: pointer;
 }
-.footer-logo{
+.twitter_black{
+  height: 33px;
   object-fit: contain;
-  width: 270px;
-  margin-left: 6.2%;
+  padding: 6.5px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  margin-right: 15px;
+  margin-top: -10px;
+  cursor: pointer;
 }
-hr{
-  width: 270px;
-  margin-top: -3px;
-  margin-bottom: 30px;
-  color:#fff;
+.linkedIn_black{
+  height: 33px;
+  width: 33px;
+  object-fit: contain;
+  padding: 6.5px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  margin-top: -10px;
+  cursor: pointer;
 }
-@media screen and (max-width: 767px) {
-  .items-cls{
-    margin-top: 6% !important;
-    margin-left: 6% !important;
+
+
+.blur_footer_txt{
+  color: #fff;
+  font-size: 14.5px;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .icons_footer_float{
+    float: right;
+  }
+  .footer_main{
+    background-color: #f5f5f5;
+    margin: 0px !important;
+    margin-top: -20px !important;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  hr.footer_hr{
+    margin-bottom: 3%;
+  }
+  .blur_footer{
+    background-color: #0D67FE;
+    height: 45px;
+    padding-top: 13px;
+    width: 100%;
   }
 }
-.links{
-  margin-top: -5px;
-}
-.links_text{
-  color:#ebeaeb;
-  font-size: 18px;
-  text-decoration: none;
-}
-.info{
-  color:#fff;
-  font-size: 17px;
-  text-align: left;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-}
-a:link {
-  background-color: transparent;
-  text-decoration: none;
-}
-.links_text:hover{
-    color: #69B142;
+@media only screen and (max-width: 767px) {
+  .icons_footer_float{
+    float: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  .footer_main{
+    background-color: #f5f5f5;
+    margin: 0px !important;
+    margin-top: -20px !important;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  hr.footer_hr{
+    margin-top: 15%;
+  }
+  .blur_footer{
+    background-color: #0D67FE;
+    padding-top: 13px;
+    padding-bottom: 2px;
+    width: 100%;
+    margin-top: 5px;
+  }
 }

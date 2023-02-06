@@ -1,0 +1,14 @@
+$sidebar-bg-color: #FFF !default;
+$sidebar-color: #adadad !default;
+$icon-bg-color: transparent !default;
+$submenu-bg-color: #2b2b2b !default;
+$submenu-bg-color-collapsed: #2b2b2b !default;
+$sidebar-width: 295px !default;
+$highlight-color: #d8d8d8 !default;
+$sidebar-collapsed-width: 0px !default;
+$submenu-indent: 38px !default;
+$icon-size: 38px !default;
+$submenu-indent: 30px !default;
+
+
+@import '~react-pro-sidebar/dist/scss/styles.scss';

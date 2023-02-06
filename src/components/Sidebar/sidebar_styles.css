@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.menu-logo {
+    width: 160px;
+    margin-top:12%;
+    margin-left:5%;
+    margin-bottom: 12%;
+ }
+ .menu-item {
+     margin-top:3px; 
+     margin-bottom:3px;
+ }
+ .ProSidebar_Height{
+    min-height: 100vh !important;
+ }
+ .sidebar-icons-margin{
+    margin-left: 10px;
+    margin-top: -10px;
+ }
+ .sidebar-item-txt{
+    color: #1D1D1D !important;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    padding-top: 17px;
+    font-weight: 600;
+ }
+ .sidebar-item-txt-red{
+    color: #FF0000 !important;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    padding-top: 17px;
+    font-weight: 600;
+ }
+ .sidebar-item-txt-active{
+    color: #0D67FE !important;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    padding-top: 17px;
+    font-weight: 600;
+ }
+ .sidebar-item-subtxt{
+    color: #1D1D1D !important;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    padding-top: 17px;
+    font-weight: 400;
+ }
+ .sidebarTabActive{
+    background-color: #E9F5FF;
+    margin-right: 5%;
+    border-radius: 9px;
+ }
+ .sidebarTabInctive{
+    background-color: #FFF;
+    margin-right: 5%;
+    border-radius: 9px;
+ }
+ .sidebarTabSubList{
+    background-color: #FFF;
+    margin-right: 5%;
+    margin-top: 2%;
+ }
+ .sidebarTabRed{
+    background-color: #FFEEEE;
+    margin-right: 5%;
+    border-radius: 9px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 93% !important;
+ }
+ .toolsActive_dropDown{
+    float: right;
+    margin-right: -5px !important;
+ }
+ .sidebar_profilePicture{
+   height: 55px;
+   width: 55px;
+   border-radius: 35px;
+   margin-left: 8%;
+   float: left;
+ }
+ .sidebar_profileVIEW{
+   float: left;
+   margin-left: 1px !important;
+   margin-top: 3px !important;
+ }
+ p.navbar_searchTxT2{
+    color: #B7B7B7;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 16px;
+    text-align: right;
+    cursor: pointer;
+}
+.sidebar_search{
+    border: 1px solid #B7B7B7;
+    border-radius: 9px;
+    margin-bottom: 5%;
+}
+ .btn {
+     background-color: transparent;
+     border: 0px solid;
+     color: #fff !important;
+     font-size: 14px !important;
+     padding-left: -50px;
+ }
+ .submenu-dot {
+     margin-right: 14px;
+ }
+ hr.sidebar_divider{
+    color: #9f9f9f;
+    width: 90%;
+    margin-left: 3.5%;
+ }

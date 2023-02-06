@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+p.settings_body_name_txt{
+    font-size: 25px;
+    margin-top: 2%;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 14%;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+.dropdown_optionsTab{
+    margin-left: 19px;
+    margin-right: 19px;
+    margin-top: 16px;
+}
+.settings_tab_active{
+    background-color: #136EB7;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    padding-left: 7%;
+    align-items: center;
+    align-self: center;
+    display: flex;
+}
+.settings_tab{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    padding-left: 7%;
+    align-items: center;
+    align-self: center;
+    display: flex;
+}
+span.settings_tab_active_txt{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+span.settings_tab_txt{
+    color: #777777;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    font-family: 'Rubik', sans-serif;
+}
+.settings_body_right{
+    background-color: #fff;
+    height: 75vh !important;
+    width: 72% !important;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding-top: 3%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    margin-left: 3%;
+}
+p.settings_body_right_txt{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5%;
+    font-family: 'Rubik', sans-serif;
+}
+input.oldPasswordInput:focus {
+    border: 1.6px solid #d87424;
+    outline: none;
+}
+input.setFullName_settings:focus{
+    outline: none;
+}
+p.oldPasswordInput_labels{
+    font-size: 15px;
+    list-style: 15px;
+    font-weight: 600;
+    margin-left: 2px;
+    margin-top: 7px;
+    margin-bottom: 7px !important;
+}
+p.settings_header_title{
+    color: #000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.profile_left_firstDiv{
+    width: 100%;
+    padding: 5%;
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    border-radius: 14px;
+    margin-bottom: 4.5%;
+    background-color: #fff;
+}
+@media only screen and (min-width: 768px) {
+    input.oldPasswordInput{
+        border-radius: 8px;
+        padding-left: 10px;
+        width: 100%;
+        border: 1px solid #C6C6C6;
+        height: 45px;
+        padding-left: 20px;
+        color: #136EB7;
+        margin-bottom: 3%;
+    }
+    .settings_body{
+        width: 100%;
+        min-height: 75vh;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+        background-color: #f2f2f2;
+    }
+    .settings_tabs_div{
+        width: 85%;
+        margin: 0 auto;
+        display: block;
+    }
+    .settings_tabs_div_mobile{
+        display: none;
+    }
+    .settings_body_left{
+        min-height: 75vh;
+        width: 100%;
+        margin-bottom: 10%;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        padding-top: 3%;
+        padding-left: 3% !important;
+        padding-bottom: 5%;
+    }
+}
+.settings_save_btn{
+    box-sizing: border-box;
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 4%;
+    background-color: #d87424;
+    cursor: pointer;
+    align-self: center !important;
+    align-items: center !important;
+    padding-top: 8px;
+    text-align: center;
+}
+.settings_save_btn2{
+    box-sizing: border-box;
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 1%;
+    background-color: #d87424;
+    cursor: pointer;
+    align-self: center !important;
+    align-items: center !important;
+    padding-top: 8px;
+    text-align: center;
+}
+@media only screen and (max-width: 767px) {
+    input.oldPasswordInput{
+        border-radius: 8px;
+        padding-left: 10px;
+        width: 100%;
+        border: 1px solid #C6C6C6;
+        height: 45px;
+        padding-left: 20px;
+        color: #136EB7;
+        margin-bottom: 3%;
+    }
+    .settings_body{
+        width: 100vw;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        background-color: #f2f2f2;
+    }
+    .settings_tabs_div{
+        display: none;
+    }
+    .settings_tabs_div_mobile{
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .settings_tab_active_mobile{
+        height: 40px;
+        width: 100%;
+        border: 0.2px solid #136EB7;
+        border-radius: 5px;
+        margin-bottom: 10%;
+        align-items: center;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+    }
+    .settings_tab_active_mobile_active{
+        background-color: #136EB7;
+        height: 40px;
+        width: 100%;
+        border: 0.2px solid #136EB7;
+        border-radius: 5px;
+        margin-bottom: 10%;
+        align-items: center;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+    }
+    .settings_body_left{
+        height: 100%;
+        margin-bottom: 5%;
+    }
+    span.settings_tab_active_mobile_txt{
+        font-weight: 600;
+    }
+    span.settings_tab_active_mobile_txt_active{
+        color: #fff;
+    }
+}
+.empty_image_settings{
+    border: 1.5px solid #136EB7;
+    border-radius: 102.5px;
+    width: 142px;
+    height:142px;
+}
+.settings_wallet_icon{
+    height: 30px;
+    object-fit: contain;
+}
+.settings_wallets_icon{
+    height: 27px;
+    object-fit: contain;
+}
+p.profile_save_btn_txt{
+    font-size: 17px;
+    font-weight: 100 !important;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    margin-top: 2px;
+}
+span.validateErrorTxt_newsletter {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    letter-spacing: 0.01em;
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.wallets_chain_icons{
+    height: 24px;
+    margin-top: -3px;
+    object-fit: contain;
+}
+p.wallet_chain_labels{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 5px !important;
+    margin-left: -22px;
+}
+.wallets_chain_InputBox{
+    border: 0.5px solid #b1b1b1;
+    height: 40px;
+    padding: 5px;
+    border-radius: 7px;
+    width: 90%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.wallets_chain_InputBox_Active{
+    border: 0.5px solid #73c255;
+    height: 40px;
+    background-color: #73c255;
+    padding: 5px;
+    border-radius: 7px;
+    width: 90%;
+    margin-left: 10%;
+    cursor: pointer;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+p.wallets_chain_InputBox_ActiveTxt{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 3px;
+    font-family: 'Rubik', sans-serif;
+}
+.primaryWallet{
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 2px;
+    height: 27px;
+}
+p.primaryWallet_txt{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #777777;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+.settings_profileImage_empty{
+    height: 75px;
+    width: 75px;
+    border-radius: 45px;
+}
+
+
+hr.profile_hr{
+    margin-top: 4.5%;
+    margin-bottom: 3%;
+    color: #7b7b7b;
+}
+.profile_humanity{
+    height: 17px;
+    object-fit: contain;
+    margin-right: 15px;
+}
+p.profile_humanityTxt{
+    color: #0F8755;
+    margin-bottom: 9px !important;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    margin-top: 0px !important;
+    font-size: 14.5px;
+}
+p.profile_humanityTxt_black{
+    color: #000;
+    margin-bottom: 9px !important;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 14.5px;
+}
+.profile_skyblueBtn{
+    height: 48px;
+    background-color: #ffe7d3;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 5%;
+    padding-top: 11.5px;
+}
+.profile_skyblueBtn_disabled{
+    height: 48px;
+    background-color: #eeeeee;
+    width: 100%;
+    border-radius: 6px;
+    cursor: not-allowed;
+    margin-top: 5%;
+    padding-top: 11.5px;
+}
+.profile_greenBtn{
+    height: 48px;
+    background-color: #0F8755;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 5%;
+    padding-top: 11.5px;
+}
+p.profile_skyblueBtn_txt{
+    color: #d87424;
+    font-size: 17.5px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+p.profile_skyblueBtn_txt_disabled{
+    color: #343434;
+    font-size: 17.5px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+p.profile_greenBtn_txt{
+    color: #fff;
+    font-size: 17.5px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+p.profile_humanityTxt_grey{
+    color: rgb(0, 0, 0);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 14.5px;
+    margin-bottom: -10px;
+}
+
+
+.AiOutlinePlus-icon2{
+    color: #fff;
+}
+@media only screen and (min-width: 768px) {
+    label{
+        border: 1px solid #FFFFFF;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        width: 30px;
+        height: 30px;
+        border-radius: 35px;
+        position: absolute;
+        margin-top: 3%;
+        margin-left: -25px;
+        background-color: #136EB7;
+      }
+    button.settings_domains_tab_active{
+        background-color: #d87424;
+        border: none;
+        color: white;
+        height: 47px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px;
+        width: 135px;
+        margin-top: 1%;
+        margin-left: 1.2%;
+        margin-bottom: 4%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    button.settings_domains_tab_inactive{
+        background-color: #EAEAEA;
+        border: none;
+        color: #242424;
+        height: 47px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px;
+        width: 135px;
+        margin-top: 1%;
+        margin-left: 1.2%;
+        margin-bottom: 4%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    button.settings_domains_tab_active_first{
+        background-color: #d87424;
+        border: none;
+        color: white;
+        height: 47px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px;
+        width: 135px;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    button.settings_domains_tab_inactive_first{
+        background-color: #EAEAEA;
+        border: none;
+        color: #242424;
+        height: 47px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px;
+        width: 135px;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    p.settings_fullName{
+        font-weight: 600;
+        font-family: 'Rubik', sans-serif;
+        margin-bottom: 5px;
+        font-size: 20px;
+        margin-top: 5px;
+        text-align: left;
+        margin-left: -15px;
+        margin-bottom: 0px;
+    }
+    input.setFullName_settings{
+        border: 0px solid #fff;
+        margin-left: -15px;
+        color: #343434;
+        margin-top: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 0px !important;
+        margin-bottom: 0px;
+        font-family: 'Rubik', sans-serif;
+    }
+    p.settings_TabsTittle{
+        font-weight: 600;
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        margin-bottom: 5px !important;
+        text-align: left;
+    }
+    p.settings_walletAddress{
+        font-size: 17px;
+        color: #d87424;
+        margin-left: -15px;
+        margin-top: 1px;
+        font-weight: 600;
+        font-family: 'Rubik', sans-serif;
+    }
+    p.profile_bio{
+        color: #676767;
+        margin-top: 10px;
+        font-size: 15px;
+        font-family: 'Rubik', sans-serif;
+    }
+    p.wallet_greyTabTxt{
+        color: #000;
+        font-family: 'Rubik', sans-serif;
+        font-size: 13px;
+        padding-top: 5px;
+        padding-left: 4px;
+        font-weight: 600;
+    }
+    .wallet_greyTab{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 4px;
+        max-height: 38px;
+        float: left;
+        border-radius: 6px !important;
+        background-color: #F5F5F5;
+        margin-right: 13px;
+    }
+    .wallet_greyTabActive{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 4px;
+        max-height: 38px;
+        float: left;
+        border-radius: 6px !important;
+        background-color: #F5F5F5;
+        margin-right: 13px;
+        border: 1.5px solid #d87424;
+    }
+    .wallet_greyTab_primary{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 4px;
+        max-height: 38px;
+        float: left;
+        border-radius: 6px;
+        background-color: #F5F5F5;
+        border-bottom-left-radius: 0px;
+        margin-right: 13px;
+        border: 3px solid #caf0eb;
+    }
+    .primary{
+        width: 100px;
+        object-fit: contain;
+        margin-top: -15px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    button.settings_domains_tab_active{
+        background-color: #d87424;
+        border: none;
+        color: white;
+        height: 42px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 1%;
+        margin-left: 2.2%;
+        margin-bottom: 4%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        
+    }
+    .wallet_greyTab{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 4px;
+        max-height: 38px;
+        float: left;
+        border-radius: 6px !important;
+        background-color: #F5F5F5;
+        margin-right: 13px;
+    }
+    .wallet_greyTabActive{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 4px;
+        max-height: 38px;
+        float: left;
+        border-radius: 6px !important;
+        background-color: #F5F5F5;
+        margin-right: 13px;
+        border: 1.5px solid #d87424;
+    }
+    .wallet_greyTab_primary{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 4px;
+        max-height: 38px;
+        float: left;
+        border-radius: 6px;
+        background-color: #F5F5F5;
+        margin-right: 13px;
+        border: 3px solid #caf0eb;
+    }
+    button.settings_domains_tab_inactive{
+        background-color: #EAEAEA;
+        border: none;
+        color: #242424;
+        height: 42px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 8px;
+        margin-top: 1%;
+        margin-left: 2.2%;
+        margin-bottom: 4%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    button.settings_domains_tab_active_first{
+        background-color: #d87424;
+        border: none;
+        color: white;
+        height: 42px;
+        text-align: center;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    button.settings_domains_tab_inactive_first{
+        background-color: #EAEAEA;
+        border: none;
+        color: #242424;
+        height: 42px;
+        text-align: center;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    p.settings_fullName{
+        font-weight: 600;
+        font-family: 'Rubik', sans-serif;
+        margin-bottom: 5px;
+        font-size: 15px;
+        margin-top: 5px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    input.setFullName_settings{
+        border: 0px solid #fff;
+        color: #343434;
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: 600;
+        padding-left: 0px !important;
+        margin-bottom: 0px;
+        font-family: 'Rubik', sans-serif;
+    }
+    p.settings_TabsTittle{
+        font-weight: 600;
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+        margin-bottom: 5px !important;
+        text-align: left;
+    }
+    p.settings_walletAddress{
+        font-size: 15px;
+        color: #d87424;
+        margin-top: 1px;
+        font-weight: 600;
+        font-family: 'Rubik', sans-serif;
+    }
+    p.profile_bio{
+        color: #676767;
+        margin-top: 10px;
+        font-size: 13.5px;
+        font-family: 'Rubik', sans-serif;
+    }
+    p.wallet_greyTabTxt{
+        color: #000;
+        font-family: 'Rubik', sans-serif;
+        font-size: 13px;
+        padding-top: 5px;
+        padding-left: 4px;
+        font-weight: 600;
+    }
+    label{
+        border: 1px solid #FFFFFF;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        width: 30px;
+        height: 30px;
+        border-radius: 35px;
+        position: absolute;
+        margin-top: -7%;
+        margin-left: 15%;
+        background-color: #136EB7;
+      }
+      .primary{
+        width: 105px;
+        object-fit: contain;
+        margin-top: -15px;
+    }
+}
+.nftDomain{
+    min-height: 170px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.ud_nft_inner{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ud_nft{
+    width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+p.ud_nft_txt{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    word-wrap: break-word;
+    font-weight: 600;
+}
