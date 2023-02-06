@@ -2,7 +2,7 @@ import React from "react";
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import SideBar from "../sidebar/sidebar";
+import SideBar from "../Sidebar/sidebar";
 import { AiOutlineShoppingCart, AiOutlineSetting } from "react-icons/ai";
 import {initializeApp} from 'firebase/app';
 import { collection, query, where, getDocs, getFirestore, doc, setDoc } from "firebase/firestore";
